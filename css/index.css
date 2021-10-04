@@ -1,0 +1,132 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.parent{
+    width: 50%;
+    margin: 20px auto ;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+.parent > h1 > span{
+    color: #999999;
+    font-family: ' Courier, monospace';
+}
+.parent > h3 {
+    font-size: 15px;
+    margin-bottom: 25px;
+
+}
+
+
+.parent .cont input{
+    padding: 10px 10px 10px 20px;
+    border-radius: 20px;
+    width: 50%;
+    margin-right: 10px;
+    border-color: #999;
+    border-width: 2px;
+    border-radius:  solid;
+    -moz-border-radius:  solid;
+    -ms-border-radius:  solid;
+    -o-border-radius:  solid;
+    -webkit-border-radius:  solid;
+    /*
+    border-color: #cb6475;
+    border-width: 2px;
+    border-radius:  solid;
+    -moz-border-radius:  solid;
+    -ms-border-radius:  solid;
+    -o-border-radius:  solid;
+    -webkit-border-radius:  solid;
+    */
+}
+.parent .cont button{
+    padding: 10px 40px;
+    border-radius: 20px;
+    background-color: #3f69d4;
+    color: white;
+}
+.parent .cont button:hover{
+    background-color: #6e94f7;
+}
+.parent .cont > p {
+    font-size: 12px;
+    margin-top: 7px;
+    margin-bottom: 40px;
+    margin-left: 13%;
+    text-align: left;
+    color: #cb6475;
+
+/**/
+    opacity: 0;
+}
+
+.parent .icone{
+    display: grid;
+    grid-template-columns: repeat(3,40px);
+    margin: 10px auto;
+    justify-content: center;
+    column-gap: 20px;
+}
+.parent .icone i{
+    color: #3f69d4;
+}
+.parent .icone i:hover{
+    color: white;
+    background-color: #3f69d4;
+    width: 31px;
+    height: 31px;
+    padding: 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.parent .img-two{
+    width: 100%;
+}
+
+.parent > p{
+    color: #999;
+    font-size: 14px;
+}
+
+
+
+@media only screen and (max-width: 425px) {
+    .parent {
+        padding: 0;
+        width: 91%;
+        margin: 35px auto 20px;
+    }
+
+    .parent > h1{
+        margin: 20px 10px;
+        font-size: 30px;
+    }
+
+    .parent .cont input{
+        width: 65%;
+    }
+    .parent .cont button{
+        padding: 10px 10px 10px 20px;
+        margin-right: 10px;
+        width: 73%;
+        margin-top: 30px;
+    }
+    .parent .cont > p {
+        opacity: 0;
+        margin-top: -63px;
+        margin-bottom: 100px;
+        /**/
+        
+    }
+
+    .parent .icone{
+        margin-top: 70px ;
+    }
+}
